@@ -4,7 +4,7 @@ from utils import split_range
 
 st.title("Sequential ECC Brute-Force Scanner")
 
-target_pubkey = st.text_input("Target Compressed Public Key", "02cbb434aa7ae1700dcd15b20b17464817ec11715050e0fa192ffe9c29a673059f")
+target_pubkey = st.text_input("Target Compressed Public Key", "02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16")
 start_hex = "0x4000000000000000000000000000000000"
 end_hex   = "0x7fffffffffffffffffffffffffffffffff"
 
